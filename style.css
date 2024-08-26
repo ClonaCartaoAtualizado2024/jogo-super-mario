@@ -31,4 +31,9 @@
     animation: jump 500mps ease-out;
 }
 
+.nuvem {
+    position: absolute
+    width: 550px;
+    animation: clouds-animations  20s infinite linear;
+}
 
