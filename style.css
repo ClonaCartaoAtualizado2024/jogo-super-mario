@@ -16,3 +16,19 @@
 
 .pipe {
     position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: pipe-animation 1.5s infiniter linear;
+}
+
+.mario {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+}
+
+.jump {
+    animation: jump 500mps ease-out;
+}
+
+
