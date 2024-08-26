@@ -37,5 +37,13 @@
     animation: clouds-animations  20s infinite linear;
 }
 
+@keyframes .pipe-animation {
+    from{
+        right: -80px;
+    }
+    to {
+        right: 100%;
+    }
+}
 
 
