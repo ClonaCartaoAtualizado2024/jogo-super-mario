@@ -27,26 +27,6 @@ const loop = setInterval (() => {
 
         clearInterval(loop);
     }
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+},10);
 
 document.addEventListener('keydown', jump);
