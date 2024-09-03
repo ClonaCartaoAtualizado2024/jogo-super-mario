@@ -39,7 +39,8 @@
 
 button {
     background: green;
-    color: whiter;
+    color: white;
+    font-weight: bold;
     font-size: 1.5rem;
     border: none;
     padding: 1rem;
@@ -48,6 +49,29 @@ button {
     top: 50vh;
     cursor: pointer;
     z-index: 1;
+}
+
+button:hover {
+    border: 2px;
+    background: none;
+    color: green;
+}
+
+button.star {
+    display: block;
+}
+
+.game-over {
+    width:100%;
+    height: 100vh;
+    backgroud: red;
+    display: none;
+    aling-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
 
 @keyframes pipe-animation {
     from{
