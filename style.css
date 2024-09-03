@@ -37,6 +37,18 @@
     animation: clouds-animation  20s infinite linear;
 }
 
+button {
+    background: green;
+    color: whiter;
+    font-size: 1.5rem;
+    border: none;
+    padding: 1rem;
+    position: absolute;
+    right: 50vw;
+    top: 50vh;
+    cursor: pointer;
+    z-index: 1;
+
 @keyframes pipe-animation {
     from{
         right: -80px;
