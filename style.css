@@ -57,7 +57,7 @@ button:hover {
     color: green;
 }
 
-button.star {
+button.start {
     display: block;
 }
 
@@ -72,6 +72,14 @@ button.star {
     position: fixed;
     top: 0;
     left: 0;
+}
+
+game-over h1 {
+    font-size: 3rem;
+    color: red;
+    text-align: center;
+    margin-top: 15rem;
+}
 
 @keyframes pipe-animation {
     from{
