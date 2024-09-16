@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 .game-board {
@@ -64,9 +64,9 @@ button.start {
 .game-over {
     width:100%;
     height: 100vh;
-    backgroud: red;
+    background: red;
     display: none;
-    aling-items: center;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     position: fixed;

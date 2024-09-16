@@ -1,9 +1,11 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
-const nuvem = document.querySelector(".nuvem");
-const startButton = document.querySelector(".star");
+const clouds = document.querySelector(".nuvem");
+const startButton = document.querySelector(".start");
 const gameOverScreen = document.querySelector(".game-over");
 
+const audioStart = new Audio("sound/audio_theme.mp3");
+const gameOverSound = new Audio("sound/audio_gameover.mp3");
 let gameStarted = false;
 
 const startsGame = () => {
@@ -11,10 +13,10 @@ const startsGame = () => {
     AudioStart.play();
 
     pipe.style.animation = "pipe-animation 1.5 infinite linear";
-    starButton.style.display = "none";
+    startButton.style.display = "none";
     mario.style.opacity = "1";
     pipe.style.opacity = "1";
-    clonds.style.opacity = "1";
+    clouds.style.opacity = "1";
 }
 
 const jump = () => {
@@ -25,7 +27,7 @@ const jump = () => {
         mario.classList.remove("jump");
     } 
     ,500);
-}
+    }
 }
 
 const loop = setInterval (() => {
