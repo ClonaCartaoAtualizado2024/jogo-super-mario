@@ -47,6 +47,7 @@ const loop = setInterval (() => {
         gameOverSound.play();
 
         clearInterval(loop);
+        gameOverScreen.style.display = "flex";
     }
 },10);
 
