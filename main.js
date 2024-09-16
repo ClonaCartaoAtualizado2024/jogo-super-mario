@@ -26,6 +26,7 @@ const jump = () => {
     } 
     ,500);
 }
+}
 
 const loop = setInterval (() => {
     const pipePosition = pipe.offsetLeft;
@@ -41,6 +42,9 @@ const loop = setInterval (() => {
         mario.src = "./img/game-over.png";
         mario.style.width = "75px";
         mario.style.marginleft = "50px";
+        AudioStart.pause();
+
+        gameOverSound.play();
 
         clearInterval(loop);
     }
