@@ -8,6 +8,7 @@ let gameStarted = false;
 
 const startsGame = () => {
     gameStarted = true;
+    AudioStart.play();
 
     pipe.style.animation = "pipe-animation 1.5 infinite linear";
     starButton.style.display = "none";
@@ -17,6 +18,7 @@ const startsGame = () => {
 }
 
 const jump = () => {
+    if(gameStarted)  {
     mario.classList.add('jump');
 
     setTimeout(() => {
