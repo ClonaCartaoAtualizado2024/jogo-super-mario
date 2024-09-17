@@ -72,6 +72,11 @@ button.start {
     font-family: 'Arial', sans-serif;
 }
 
+.score span {
+    font-weight: bold;
+    font-size: 30px;
+}
+
 .game-over {
     width:100%;
     height: 100vh;
