@@ -66,3 +66,8 @@ const loop = setInterval (() => {
 },10);
 
 document.addEventListener('keydown', jump);
+
+const restartGame = () => {
+
+    window.location.reload();
+}
