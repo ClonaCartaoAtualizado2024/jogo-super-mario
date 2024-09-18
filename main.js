@@ -45,7 +45,7 @@ const loop = setInterval (() => {
         mario.src = "./img/game-over.png";
         mario.style.width = "75px";
         mario.style.marginleft = "50px";
-        AudioStart.pause();
+        audioStart.pause();
 
         gameOverSound.play();
 
