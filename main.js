@@ -10,7 +10,7 @@ const gameOverSound = new Audio("sound/audio_gameover.mp3");
 
 let gameStarted = false;
 
-const startsGame = () => {
+const startGame = () => {
     gameStarted = true;
     audioStart.play();
 
