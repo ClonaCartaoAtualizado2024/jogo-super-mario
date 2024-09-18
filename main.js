@@ -12,7 +12,7 @@ let gameStarted = false;
 
 const startsGame = () => {
     gameStarted = true;
-    AudioStart.play();
+    audioStart.play();
 
     pipe.style.animation = "pipe-animation 1.5 infinite linear";
     startButton.style.display = "none";
