@@ -15,7 +15,7 @@ const startGame = () => {
     gameStarted = true;
     audioStart.play();
 
-    pipe.style.animation = "pipe-animation 1.5 infinite linear";
+    pipe.style.animation = "pipe-animation 1.5s infinite linear";
 
     startButton.style.display = "none";
     mario.style.opacity = "1";
