@@ -22,7 +22,7 @@ const startsGame = () => {
 
 const jump = () => {
     if(gameStarted)  {
-    mario.classList.add('jump');
+    mario.classList.add("jump");
 
     setTimeout(() => {
         mario.classList.remove("jump");
