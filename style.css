@@ -133,7 +133,7 @@ game-over h1 {
     }
 }
 
-@keyframes clouds-animantion {
+@keyframes clouds-animation {
     from {
         right: -550px;
     }
