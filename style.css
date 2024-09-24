@@ -39,6 +39,7 @@
 .nuvem {
     position: absolute;
     width: 550px;
+    animation: clouds-animation 20s infinite linear;
 }
 
 button {
@@ -95,7 +96,7 @@ button.start {
     left: 0;
 }
 
-game-over h1 {
+.game-over h1 {
     font-size: 3rem;
     color: red;
     text-align: center;
